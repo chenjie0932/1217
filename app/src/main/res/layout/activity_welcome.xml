@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@mipmap/xxccc"
+    tools:context="com.bwie.test.lianxi1128.activity.WelcomeActivity">
+    <TextView
+        android:id="@+id/count_down"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="right"
+        android:textSize="30sp"
+        android:textColor="#50000000"
+        tools:text="3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

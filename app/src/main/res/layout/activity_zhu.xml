@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bwie.test.lianxi1128.activity.ZhuActivity">
+    <com.bwie.test.lianxi1128.view.NoScrollview
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--  <RadioButton
+              android:id="@+id/rb_home_page"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:layout_weight="1"
+              android:button="@null"
+              android:drawableTop="@mipmap/bottom_tab_home_normal"
+              android:gravity="center_horizontal"
+              android:text="首页" />
+
+          <RadioButton
+              android:id="@+id/rb_category"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:layout_weight="1"
+              android:button="@null"
+              android:drawableTop="@mipmap/bottom_tab_classify_normal"
+              android:gravity="center_horizontal"
+              android:text="分类" />
+
+          <RadioButton
+              android:id="@+id/rb_cart"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:layout_weight="1"
+              android:button="@null"
+              android:drawableTop="@mipmap/bottom_tab_shopping_normal"
+              android:gravity="center_horizontal"
+              android:text="购物车" />
+
+          <RadioButton
+              android:id="@+id/rb_mine"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:layout_weight="1"
+              android:button="@color/transparent"
+              android:drawableTop="@mipmap/bottom_tab_user_update"
+              android:gravity="center_horizontal"
+              android:text="我的" />-->
+
+        <RadioButton
+            android:id="@+id/rb_home_page"
+            style="@style/main_tab_bottom"
+            android:checked="true"
+            android:drawableTop="@mipmap/bottom_tab_home_normal"
+            android:text="@string/main_navigation_home" />
+
+        <RadioButton
+            android:id="@+id/rb_category"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@mipmap/bottom_tab_classify_normal"
+            android:text="@string/main_navigation_catagory" />
+
+        <RadioButton
+            android:id="@+id/rb_cart"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@mipmap/bottom_tab_shopping_normal"
+            android:text="@string/main_navigation_car" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@mipmap/bottom_tab_user_update"
+            android:text="@string/main_code_buy" />
+    </RadioGroup>
+
+</LinearLayout>
